@@ -1,0 +1,12 @@
+tqdm
+clearml==1.0.2
+torch==1.9.0
+numpy
+wordninja==2.0.0
+joblib
+psutil==5.8.0
+pytorch-ignite==0.4.4
+tensorboardX==2.2
+ax-platform==0.2.0
+pytorch-pretrained-bert==0.6.2
+py_config_runner
