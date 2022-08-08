@@ -31,7 +31,7 @@ python -u -m torch.distributed.launch --nproc_per_node=2 --use_env main.py --con
 For test, you can set the parameter 'is_test' to True.
 and set the checkpoint file path.
 The program will default find the checkpoint based on the hype-parameters.
-And we apply a trained AST-Trans checkpoint file in ./checkpoint.
+And we apply a trained AST-Trans checkpoint file for python in https://box.nju.edu.cn/f/ebdb250c46524268be41/.
 If you want to load model on your specific path, just change the 'load_epoch_path' of the test function in script/train.py 
 
 load_epoch_path = './checkpoint/'
