@@ -2,6 +2,7 @@
 This is the implementation for AST-Trans: Code Summarization with Efficient Tree-Structured Attention.
 ## 1. install environments
    pip install -r requirements.
+   
    pytorch-geometric can be installed by
    pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
 ## 2.pre process data
