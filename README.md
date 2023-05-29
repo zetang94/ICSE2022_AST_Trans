@@ -2,6 +2,8 @@
 This is the implementation for AST-Trans: Code Summarization with Efficient Tree-Structured Attention.
 ## 1. install environments
    pip install -r requirements.
+   pytorch-geometric can be installed by
+   pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
 ## 2.pre process data
 this step attends to generate pot, sbt, paths and relationship matrices of ASTs.
 The [dataset](https://drive.google.com/drive/folders/1dc42GFE6nx4x5_2_6H-qelTSI1KmPEJe) we proposed have been pre-processed. If you want to pre-process the dataset of your own, you can save ASTs as a json object of format like {'type':'';'value':'','children':[]}, and then run:
