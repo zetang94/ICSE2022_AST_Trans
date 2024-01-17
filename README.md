@@ -11,6 +11,10 @@ The [dataset](https://drive.google.com/drive/folders/1dc42GFE6nx4x5_2_6H-qelTSI1
 
 python pre_process/process.py --data_dir your_data_set_path --max_ast_len 250 --process --make_vocab
 
+> PS: Due to the limited storage of the cloud drive, I accidentally deleted the data and code. Fortunately, in the work of Weisong Sun et al.[1], they use tree-sitter to process and extract the data required for ast-trans. That is really cool! So if you are interested in the pre-process process, you can find the detail in their [repository](https://github.com/wssun/AST4PLU/tree/main).
+>
+>[1] Sun W, Fang C, Miao Y, et al. Abstract Syntax Tree for Programming Language Understanding and Representation: How Far Are We?[J]. arXiv preprint arXiv:2312.00413, 2023.
+
 ## 3. run
 we use py_config_runner.
 The config of model is saved at ./config.
